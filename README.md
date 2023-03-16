@@ -13,11 +13,13 @@ converter (ADC2) with up to 16 multiplexed input channels and the following main
 - End of conversion (EOC) interrupt  
 ## Feature
 These features are available in ADC1 and ADC2.
-• 10-bit resolution
-• Single and continuous conversion modes
-• Programmable prescaler: fMASTER divided by 2 to 18
-• External trigger option using external interrupt (ADC_ETR) or timer trigger (TRGO)
-• Analog zooming (in devices with VREF pins)
-• Interrupt generation at End of Conversion
-• Data alignment with in-built data coherency
-• ADC input range: VSSA ≤ VIN ≤ VDDA
+- 10-bit resolution
+- Single and continuous conversion modes
+- Programmable prescaler: fMASTER divided by 2 to 18
+- External trigger option using external interrupt (ADC_ETR) or timer trigger (TRGO)
+- Analog zooming (in devices with VREF pins)
+- Interrupt generation at End of Conversion
+- Data alignment with in-built data coherency
+- ADC input range: VSSA ≤ VIN ≤ VDDA  
+
+
