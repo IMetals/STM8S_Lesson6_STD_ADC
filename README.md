@@ -22,4 +22,11 @@ These features are available in ADC1 and ADC2.
 - Data alignment with in-built data coherency
 - ADC input range: VSSA ≤ VIN ≤ VDDA  
 
+## Exercise 1: Read ADC value of *Variable Resistor* using mode *single*, not use Interrupt. View adc_value in debug IAR
+This project use PIN PB0, input floating mode. Config it in function GPIO_Init.
+Config ADC in function ADC2_Init.
+After call ADC2_StartConversion(), program will read ADC 1 time. Get value use function ADC2_GetConversionValue().
 
+## Exercise 2: Read ADC value using mode continuos, use Interrupt. View adc_value in debug IAR
+Similar above.
+use file stm8s_it.c.
